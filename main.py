@@ -4,8 +4,8 @@ from spider import Spider
 from domain import *
 from General import *
 
-PROJECT_NAME = 'Arteezy'
-HOMEPAGE = 'http://dotamax.com/player/match/86745912/?skill=pro'
+PROJECT_NAME = 'Your_project_name'
+HOMEPAGE = 'http://google.com/'
 DOMAIN_NAME = get_domain_name(HOMEPAGE)
 QUEUE_FILE = PROJECT_NAME + "/queue.txt"
 CRAWLED_FILE = PROJECT_NAME + "/crawled.txt"
